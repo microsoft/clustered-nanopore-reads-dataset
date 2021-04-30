@@ -2,10 +2,8 @@
 
 We release the dataset of clustered nanopore DNA reads together with our paper:
 
-**Trellis BMA: coded trace reconstruction on IDS channels for DNA storage**
-
-*Sundara Rajan Srinivasavaradhan, Sivakanth Gopi, Henry D. Pfisterz, and Sergey Yekhanin*
-
+**Trellis BMA: coded trace reconstruction on IDS channels for DNA storage**  
+*Sundara Rajan Srinivasavaradhan, Sivakanth Gopi, Henry D. Pfisterz, and Sergey Yekhanin*  
 Proceedings of the International Symposium on Information Theory (ISIT), 2021. [[Paper]](link)
 
 Our hope is that this dataset will enable further research progress by allowing objective comparisons between the algorithms. The dataset is represented by two files:
