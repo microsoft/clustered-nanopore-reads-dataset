@@ -1,14 +1,30 @@
-# Project
+# Clustered Nanopore Reads (CNR) Dataset
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+We release the dataset of clustered nanopore DNA reads together with our paper:
+**Trellis BMA: coded trace reconstruction on IDS channels for DNA storage**
+*Sundara Rajan Srinivasavaradhan, Sivakanth Gopi, Henry D. Pfisterz, and Sergey Yekhanin*
+Proceedings of the International Symposium on Information Theory (ISIT), 2021. [[Paper]](link)
 
-As the maintainer of this project, please make a few updates:
+Our hope is that this dataset will enable further
+research progress by allowing objective comparisons between the algorithms. The dataset is represented by two files:
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+- **Centers.txt** This files contains 10,000 random strings of length $110$ in the alphabet {A,C,G,T}.
+- **Clusters.txt** This file contains 269,709 noisy nanopore reads of DNA sequences corresponding to strings in the file **Centers.txt**. Reads are arranged into clusters separated by lines of multiple "=" signs. Clusters follow the same order as the strings in the file **Centers.txt**, i.e., the first cluster contains reads corresponding to the DNA sequence represented by first string in *Centers.txt*, the second cluster contains reads corresponding to the DNA sequence resented by the second string in **Centers.txt**, etc.
+
+
+DNA sequences were synthesized by Twist Bioscience and amplified using polymerase chain reaction. The amplified products were ligated to Oxford Nanopore Technologies (ONT) sequencing adapters by following the manufacturer’s protocol (LQK-LSK 109 kit). Finally, ligated samples were sequenced using ONT MinION. Clusters of noisy reads have been recovered using the algorithm from [1].
+
+
+## Acknowledgement
+We thank Karin Strauss, Yuan-Jyue Chen, and the Molecular Information Systems Laboratory at the University of Washington for providing the dataset to us.
+
+> [1] Cyrus Rashtchian, Konstantin Makarychev, Miklos Rácz, Sienna Dumas Ang, Djordje Jevdjic, Sergey Yekhanin, Luis Ceze, and Karin Strauss, “Clustering billions of reads for DNA data storage,” in Proceedings of the 30th Annual Conference on Neural Information Processing Systems (NIPS), 2017, pp. 3360–3371.
+
+## Citation
+If you find this dataset useful for your research, please cite the paper
+
+...(Insert bibtex entry)...
+
 
 ## Contributing
 
