@@ -18,8 +18,8 @@ DNA sequences were synthesized by Twist Bioscience and amplified using polymeras
 
 
 ## Acknowledgement
-We thank Karin Strauss, Yuan-Jyue Chen, and the Molecular Information Systems Laboratory at the University of Washington for providing the dataset to us.
-
+We thank Karin Strauss, Yuan-Jyue Chen, and the Molecular Information Systems Laboratory ([MISL](https://misl.cs.washington.edu/)) at the University of Washington for providing the dataset to us.
+... (Maybe add a link to DNA storage project? https://www.microsoft.com/en-us/research/project/dna-storage/) ...
 
 ## Citation
 If you find this dataset useful for your research, please cite the paper
