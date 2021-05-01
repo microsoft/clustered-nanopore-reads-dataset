@@ -9,7 +9,7 @@ Proceedings of the International Symposium on Information Theory (ISIT), 2021. [
 Our hope is that this dataset will enable further research progress in the area of *trace reconstruction* and DNA data storage by allowing objective comparison between various algorithms. The dataset is represented by two files:
 
 - **Centers.txt** This files contains 10,000 random strings of length 110 in the alphabet {A,C,G,T}.
-- **Clusters.txt** This file contains 269,709 noisy nanopore reads of DNA sequences corresponding to strings in the file **Centers.txt**. Reads are arranged into clusters separated by lines of multiple "=" signs. Clusters follow the same order as the strings in the file **Centers.txt**, i.e., the first cluster contains reads corresponding to the DNA sequence represented by first string in *Centers.txt*, the second cluster contains reads corresponding to the DNA sequence represented by the second string in **Centers.txt**, etc. Note that some of the clusters might be empty, i.e., there are no reads corresponding to some strands in 
+- **Clusters.txt** This file contains 269,709 noisy nanopore reads of DNA sequences corresponding to strings in the file **Centers.txt**. Reads are arranged into clusters separated by lines of multiple "=" signs. Clusters follow the same order as the strings in the file **Centers.txt**, i.e., the first cluster contains reads corresponding to the DNA sequence represented by first string in **Centers.txt**, the second cluster contains reads corresponding to the DNA sequence represented by the second string in **Centers.txt**, etc. Note that some of the clusters might be empty, i.e., there are no reads corresponding to some strings in **Centers.txt**.
 
 
 DNA sequences were synthesized by Twist Bioscience and amplified using polymerase chain reaction. The amplified products were ligated to Oxford Nanopore Technologies (ONT) sequencing adapters by following the manufacturer’s protocol (LQK-LSK 109 kit). Finally, ligated samples were sequenced using ONT MinION. Clusters of noisy reads have been recovered using the algorithm from [1].
@@ -18,8 +18,7 @@ DNA sequences were synthesized by Twist Bioscience and amplified using polymeras
 
 
 ## Acknowledgement
-We thank Karin Strauss, Yuan-Jyue Chen, and the Molecular Information Systems Laboratory ([MISL](https://misl.cs.washington.edu/)) at the University of Washington for providing the dataset to us.
-... (Maybe add a link to DNA storage project? https://www.microsoft.com/en-us/research/project/dna-storage/) ...
+We thank Karin Strauss, Yuan-Jyue Chen, and the Molecular Information Systems Laboratory ([MISL](https://misl.cs.washington.edu/)) at the University of Washington for providing the dataset to us. This effort is a part of the broader [DNA storage project](https://www.microsoft.com/en-us/research/project/dna-storage/). 
 
 ## Citation
 If you find this dataset useful for your research, please cite the paper
