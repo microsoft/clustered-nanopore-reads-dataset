@@ -8,7 +8,7 @@ Proceedings of the International Symposium on Information Theory (ISIT), 2021. [
 
 Our hope is that this dataset will enable further research progress in the area of *trace reconstruction* and DNA data storage by allowing objective comparison between various algorithms. The dataset is represented by two files:
 
-- **Centers.txt** This files contains 10,000 random strings of length 110 in the alphabet {A,C,G,T}.
+- **Centers.txt** This files contains 10,000 strings of length 110 in the alphabet {A,C,G,T} generated uniformly at random.
 - **Clusters.txt** This file contains 269,709 noisy nanopore reads of DNA sequences corresponding to strings in the file **Centers.txt**. Reads are arranged into clusters separated by lines of multiple "=" signs. Clusters follow the same order as the strings in the file **Centers.txt**, i.e., the first cluster contains reads corresponding to the DNA sequence represented by first string in **Centers.txt**, the second cluster contains reads corresponding to the DNA sequence represented by the second string in **Centers.txt**, etc. Note that some of the clusters might be empty, i.e., there are no reads corresponding to some strings in **Centers.txt**.
 
 
