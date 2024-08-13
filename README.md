@@ -4,7 +4,7 @@ We release the dataset of clustered nanopore DNA reads together with our paper:
 
 **Trellis BMA: coded trace reconstruction on IDS channels for DNA storage**  
 *Sundara Rajan Srinivasavaradhan, Sivakanth Gopi, Henry D. Pfister, and Sergey Yekhanin*  
-Proceedings of the International Symposium on Information Theory (ISIT), 2021. [[Paper]](link)
+Proceedings of the International Symposium on Information Theory (ISIT), 2021. [[Paper]](https://arxiv.org/abs/2107.06440)
 
 Our hope is that this dataset will enable further research progress in the area of *trace reconstruction* and DNA data storage by allowing objective comparison between various algorithms. The dataset is represented by two files:
 
@@ -16,6 +16,8 @@ DNA sequences were synthesized by Twist Bioscience and amplified using polymeras
 
 > [1] Cyrus Rashtchian, Konstantin Makarychev, Miklos Rácz, Sienna Dumas Ang, Djordje Jevdjic, Sergey Yekhanin, Luis Ceze, and Karin Strauss, “Clustering billions of reads for DNA data storage,” in Proceedings of the 30th Annual Conference on Neural Information Processing Systems (NIPS), 2017, pp. 3360–3371.
 
+## Note added on 8/12/2024
+We would like to thank Adar Hadad who pointed out to us that the collection of 10,000 DNA sequences of length 110 generated for this study exhibits long-range dependencies instead of being uniformly random. This is due to an error in the generation process. Since the input sequences are not uniform, the clustering algorithm from [1] may have unexpected behavior and some recovered clusters may be malformed, making the trace reconstruction problem harder.
 
 ## Acknowledgement
 We thank Karin Strauss, Yuan-Jyue Chen, and the Molecular Information Systems Laboratory ([MISL](https://misl.cs.washington.edu/)) at the University of Washington for providing the dataset to us. This effort is a part of the broader [DNA storage project](https://www.microsoft.com/en-us/research/project/dna-storage/). 
