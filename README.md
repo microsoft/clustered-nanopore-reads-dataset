@@ -23,9 +23,9 @@ We would like to thank Adar Hadad who pointed out to us that the collection of 1
 We thank Karin Strauss, Yuan-Jyue Chen, and the Molecular Information Systems Laboratory ([MISL](https://misl.cs.washington.edu/)) at the University of Washington for providing the dataset to us. This effort is a part of the broader [DNA storage project](https://www.microsoft.com/en-us/research/project/dna-storage/). 
 
 ## Citation
-If you find this dataset useful for your research, please cite the paper
+If you find this dataset useful for your research, please cite the paper:
 
-...(Insert bibtex entry)...
+Srinivasavaradhan, Sundara Rajan, Sivakanth Gopi, Henry D. Pfister, and Sergey Yekhanin. "Trellis BMA: Coded trace reconstruction on IDS channels for DNA storage." In 2021 IEEE International Symposium on Information Theory (ISIT), pp. 2453-2458. IEEE, 2021.
 
 
 ## Contributing
